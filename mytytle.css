@@ -28,7 +28,7 @@ h2{
     background-color: lightgray;
     float: left;
     /* height: 20px; */
-   
+    width:auto;
     margin: 2px 10px;
 
     color: rgb(104, 136, 15);
