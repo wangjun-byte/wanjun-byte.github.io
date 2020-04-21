@@ -133,6 +133,7 @@ iframe{
     height: 600px;
 } 
 img {
+    width:25%
     display: block;
     margin:  20px;
   }
