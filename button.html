@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蜗牛解析</title>
+    <script type="text/javascript">
+        function mkurl(){
+            url = "https://www.tengniuyun.com/vip/?url="+document.getElementById("bfdz").value;
+            // alert("正在解析"+url);
+            player =document.getElementById("player");
+            player.src = url;
+            player.allow="fullscreen"
+
+            
+        }      
+        
+    </script>
+</head>
+<body>
+    <h1>腾讯vip解析</h1>
+    <input id="bfdz" type="text">
+    <button onclick=mkurl()>输入</button>
+    <iframe id="player" src="" frameborder="0"  allow="fullscreen"></iframe>
+    
+    
+</body>
+</html>
